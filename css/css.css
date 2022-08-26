@@ -85,7 +85,7 @@ color: #2b98a3
   display: flex;
   justify-content:space-between;
   align-items:center;
-  height: 50px;
+  /* height: 50px; */
   background: White;
   width: 963px;
 /*   min-width:710px */
@@ -118,10 +118,15 @@ h1 a{
     border-bottom: 4px solid #6bdab8;
 }
 .dropdown-open{
+  position:absolute;
+  z-index:999;
   display: none;
-  z-index:9
 }
-
+.dropdown-open > li{
+  text-align:center;
+  border:1px solid #00cc99;
+  background:white;
+}
 
 
 article{
