@@ -114,12 +114,16 @@ h1 a{
 .info li a:hover{
   color: #2b98a3;
 }
-.page:active{
+.page:active,.page:hover{
     border-bottom: 4px solid #6bdab8;
 }
-.page:hover{
-  border-bottom: 4px solid #6bdab8;
+.dropdown-open{
+  display: none;
+  z-index:9
 }
+
+
+
 article{
   margin-bottom: 60px;
 }
@@ -127,7 +131,6 @@ article{
 .banner{
   height: 335px;
   width: 963px;
-  /* background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png); */
   position: relative;
 
 }

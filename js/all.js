@@ -16,6 +16,12 @@ $(document).ready(function () {
       1000
     );
   });
+  $('.dropdown').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $('.dropdown').toggleClass('active');
+    $('.dropdown-open').slideToggle();
+  });
 });
 
 
