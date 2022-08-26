@@ -11,6 +11,8 @@
         <meta property="og:image" content="" />    
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <link rel="stylesheet" href="css/css.css">
+<!-- 小圖示 -->
+<script src="https://kit.fontawesome.com/f43b5b1c86.js" crossorigin="anonymous"></script>
     <!-- --燈箱-- -->
     <link rel="stylesheet" href="css/lightbox.css">
     <!-- <script src="js/jquery-2.2.3.min.js"></script>已經有了 在下面 -->
@@ -49,14 +51,6 @@
         </div>
         <!-- 第一部分 黑色背景圖片區塊 -->
         <article class="banner">
-
-
-
-
-
-
-
-
 <!-- ==========輪播套件html================ -->
   <!-- Slider main container -->
   <div class="swiper-container">
@@ -84,16 +78,6 @@
     <!-- <div class="swiper-scrollbar"></div> -->
   </div>
 <!-- =========輪播套件html end============= -->
-
-
-
-
-
-
-
-
-
-
             <div class="bg">
                 <p>
                     六角學院
@@ -105,14 +89,19 @@
         <!-- 第2部分 3card區塊 -->
         <article class="card" id="card">
             <div class="left">
-                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt="">
+                <a class="example-image-link" href="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" data-lightbox="example-set" data-title="HTML5基礎教學" data-alt="主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。">
+                    <img class="example-image" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt=""/>
+                  </a>
                 <div class="text-3card">
                     <h4>HTML5基礎教學</h4>
                     <p>主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
                 </div>
             </div>
             <div class="middle">
-                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt="">
+                <a class="example-image-link" href="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" data-lightbox="example-set" data-title="響應式網站設計" data-alt="響應式網站設計(Responsive web
+                design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。">
+                    <img class="example-image" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt=""/>
+                  </a>
                 <div class="text-3card">
                     <h4>響應式網站設計</h4>
                     <p>響應式網站設計(Responsive web
@@ -120,7 +109,16 @@
                 </div>
             </div>
             <div class="right">
-                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt="">
+                <a class="example-image-link" href="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" data-lightbox="example-set" data-title="jQuery實戰教學" data-alt="<p>本課程有以下特色:</p><br>
+                    <ul>
+                      <li>了解變數的使用方法</li>
+                      <li>學習並操作DOM</li>
+                      <li>學習基本數學運算方法</li>
+                      <li>套件的操作及運用</li>
+                    </ul>">
+                    <img class="example-image" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt=""/>
+                  </a>
+                <!-- <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt=""> -->
                 <div class="text-3card">
                     <h4>jQuery實戰教學</h4>
                     <p>本課程有以下特色:</p><br>
@@ -223,7 +221,9 @@
             </div>
         </footer>
     </div>
-  <!-- --------------------------------燈箱html end---------------------------------- -->
+    <div class="top">
+        <a href="#" class="fa-solid fa-circle-arrow-up  fa-2xl"></a>
+      </div>
   <!-- jquery核心 -->
   <script src="js/jquery-2.2.3.min.js"></script>
   <!-- 燈箱src 有plus的內含jquery核心，因此可以不載入jquery核心 -->

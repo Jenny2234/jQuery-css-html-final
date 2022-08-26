@@ -272,6 +272,17 @@ line-height: 1.5;
 footer span{
   color: #bb698c;
 }
+.top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 
-
+}
+.top a{
+  text-decoration: none;
+  color: #01cc98;
+}
+.top a:hover{
+  color: #108064;
+}
 
