@@ -127,16 +127,18 @@ article{
 .banner{
   height: 335px;
   width: 963px;
-  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+  /* background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png); */
   position: relative;
 
 }
 .bg{
+  z-index: 9;
   position: absolute;
   top: 90px;
   background: rgba(0, 0, 0, 0.29);
   width: 963px;
   padding: 42px;
+
 }
 .bg p{
   font-size: 33px;
