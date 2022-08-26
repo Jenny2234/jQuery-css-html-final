@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+/* -------------------- */
+.wrap {
+  max-width: 963px;
+/*   background: pink; */
+/*   height: 600px; */
+    margin:0 auto;
+}
+nav {
+  background-color:#f6f6f6;
+  height: 27px;
+}
+nav ul {
+  display: flex;
+  float: right;
+  margin: 5px;
+}
+nav ul li{
+  margin-right: 10px;
+}
+nav ul li img{
+  margin-right: 3px;
+  margin-top: 1px;
+}
+nav ul li a{
+color: gray;
+  text-decoration:none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+color: #2b98a3
+}
+.header{
+  margin: 0px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  height: 50px;
+  background: White;
+  width: 963px;
+/*   min-width:710px */
+}
+h1 a{
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+  width: 200px;
+  height: 50px;
+  display: block;
+  text-indent:101%;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.info{
+  display: flex;
+}
+
+.info li a{
+  color: #6bdab8;
+  text-decoration:none;
+  font-weight: bold;
+  display: block;
+  margin: 0px 9px;
+  padding: 12px;
+}
+.info li a:hover{
+  color: #2b98a3;
+}
+.page:active{
+    border-bottom: 4px solid #6bdab8;
+}
+.page:hover{
+  border-bottom: 4px solid #6bdab8;
+}
+article{
+  margin-bottom: 60px;
+}
+/* <!-- 第一部分 黑色背景圖片區塊 --> */
+.banner{
+  height: 335px;
+  width: 963px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+  position: relative;
+
+}
+.bg{
+  position: absolute;
+  top: 90px;
+  background: rgba(0, 0, 0, 0.29);
+  width: 963px;
+  padding: 42px;
+}
+.bg p{
+  font-size: 33px;
+  color: rgb(249, 249, 249);
+  line-height: 1.5;
+}
+/* <!-- 第一部分 黑色背景圖片區塊結束 --> */
+/* <!-- 第2部分 3card區塊 --> */
+.card{
+  height: 321px;
+  display: flex;
+  justify-content:space-around;
+}
+.card .left,.card .middle,.card .right{
+  width: 292px;
+  height: 321px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.29);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.card h4{
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+.card p{
+  text-align: left;
+}
+.text-3card{
+  margin: 10px 20px 20px 20px;
+}
+.text-3card ul li{
+  text-align: left;
+}
+/* <!-- 第2部分 3card區塊結束 --> */
+/* <!-- 第3部分 table區塊 --> */
+.table h3{
+  margin-bottom: 26px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+table{
+  width: 812px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+th,td{
+  width: 203px;
+  padding: 12px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+table span{
+  font-weight: bold;
+}
+.special{
+  color: #6bdab8;
+}
+.gray{
+  background: #f7f7f7;
+}
+.hoverGray:hover{
+  background: #f7f7f7;
+}
+/* <!-- 第3部分 table區塊結束 --> */
+/* <!-- 第4部分 表單區塊 --> */
+.form{
+  height: 400px;
+  background:linear-gradient( #01644a,#019870);
+  padding: 30px 19px;
+  margin: 0;
+}
+.form h2{
+  text-align: center;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+line-height: 1.5;
+}
+.display{
+  display: flex;
+  margin-top: 25px;
+}
+.input{
+  margin-left: 40px;
+}
+.input label{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+input{
+  margin-top: 6px;
+  margin-bottom: 16px;
+  width: 444px;
+  padding: 9px;
+}
+.btn{
+  display: flex;
+  justify-content:end
+}
+.inputBtn{
+  margin:0px;
+  width: 70px;
+  height: 33px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  background: #01cc98;
+  border: none;
+  border-radius: 3px;
+
+}
+.inputBtn:hover{
+  background: #2b98a3;
+}
+/* <!-- 第4部分 表單區塊結束 --> */
+/* footer */
+
+footer{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  height: 94px;
+  padding: 0 16px;
+}
+
+footer span,footer p{
+font-size: 14px;
+line-height: 1.5;
+}
+footer span{
+  color: #bb698c;
+}
+
+
+

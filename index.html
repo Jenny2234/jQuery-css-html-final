@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jenny的css最終作業</title>
+    
+        <meta name='description' content='使用css製作網站' />
+    
+    
+        <meta property="og:title" content="Jenny的css最終作業" />
+        <meta property="og:description" content="使用css製作網站">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jenny2234.github.io/css-exercise-20220821/" />
+        <meta property="og:image" content="" />    
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+<link rel="stylesheet" href="css.css">
+    </head>
+<body>
+    <div class="wrap">
+        <nav>
+          <ul>
+            <li class="fb"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png" alt="臉書">粉絲團</a></li><span style="margin-right:8px ;">|</span>
+            <li class="wt"><a href="#"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png" alt="推特">追隨我們</a></li>
+          </ul>
+        </nav>
+        <div class="header">
+          <div class="logo">
+            <h1>
+              <a href="#">六角學院</a>
+            </h1>
+          </div>
+      
+            <ul class="info">
+              <li><a href="#" class="page">首頁</a></li>
+              <li><a href="#card" class="page">產品介紹</a></li>
+              <li><a href="#form" class="page">聯絡我們</a></li>
+            </ul>
+      
+        </div>
+        <!-- 第一部分 黑色背景圖片區塊 -->
+        <article class="banner">
+            <div class="bg">
+                <p>
+                    六角學院
+                    <br>
+                    讓您奠定良好的前端基礎
+                </p>
+            </div>
+        </article>
+        <!-- 第2部分 3card區塊 -->
+        <article class="card" id="card">
+            <div class="left">
+                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt="">
+                <div class="text-3card">
+                    <h4>HTML5基礎教學</h4>
+                    <p>主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+                </div>
+            </div>
+            <div class="middle">
+                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt="">
+                <div class="text-3card">
+                    <h4>響應式網站設計</h4>
+                    <p>響應式網站設計(Responsive web
+                        design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt="">
+                <div class="text-3card">
+                    <h4>jQuery實戰教學</h4>
+                    <p>本課程有以下特色:</p><br>
+                    <ul>
+                      <li>了解變數的使用方法</li>
+                      <li>學習並操作DOM</li>
+                      <li>學習基本數學運算方法</li>
+                      <li>套件的操作及運用</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <!-- 第3部分 table區塊 -->
+        <article class="table">
+            <h3>線上及實體課程的差異</h3>
+            <table>
+                <tr class="gray">
+                    <th><span>項目</span></th>
+                    <th><span>HEX SCHOOL&nbsp;線上課程</span></th>
+                    <th><span>一般線上課程</span></th>
+                    <th><span>實體課程</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>費用</span></th>
+                    <th><span class="special">較低</span></th>
+                    <th><span class="special">較低</span></th>
+                    <th><span>較高</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>學習效果</span></th>
+                    <th><span>一般</span></th>
+                    <th><span class="special">較低</span></th>
+                    <th><span class="special">很好</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>Code review</span></th>
+                    <th><span class="special">有</span></th>
+                    <th><span>無</span></th>
+                    <th><span>不一定</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>課程更新速度</span></th>
+                    <th><span class="special">普通</span></th>
+                    <th><span class="special">普通</span></th>
+                    <th><span>較慢</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>多次複習</span></th>
+                    <th><span class="special">可</span></th>
+                    <th><span>可</span></th>
+                    <th><span>不可</span></th>
+                </tr>
+                <tr class="hoverGray">
+                    <th><span>字幕</span></th>
+                    <th><span class="special">有</span></th>
+                    <th><span>不一定</span></th>
+                    <th><span>板書</span></th>
+                </tr>
+            </table>
+        </article>
+        <!-- 第4部分 表單區塊 -->
+        <article class="form" id="form">
+            <h2>對我們的課程有興趣嗎?
+                <br>
+                歡迎留下您的資料
+            </h2>
+            <form action="index.html">
+            <div class="display">
+
+                <div class="textarea">
+                    <textarea name="content" id="content" cols="57" rows="16"placeholder="想說的話..."></textarea>
+                </div>
+                <div class="input">
+                    <label for="name">姓名</label><br>
+                    <input type="text" name="name" placeholder="六角講師" id="name"><br>
+                    <label for="phone">電話</label><br>
+                    <input type="tel" name="phone" placeholder="0912345678" id="phone"><br>
+                    <label for="mail">信箱</label><br>
+                    <input type="mail" name="mail" placeholder="abcd12345678@gmail.com" id="mail"><br>
+                    <div class="btn">
+                    <input type="submit" value="送出" class="inputBtn">
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+        </article>
+        <footer>
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png" alt="">
+            </div>
+            <div class="connection">
+                <p>
+                    聯絡我們&nbsp;: &nbsp;<span>abcd12345678@gmail.com</span>   
+                    <br>
+                    電話&nbsp;: &nbsp;<span>0912345678</span> 
+                </p>
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
